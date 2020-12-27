@@ -1,9 +1,10 @@
-// write a javascript program that gets temperature from user in celsius and convert it into Fahrenheit 
-// using the formula F = 9/5 * C + 32, alert the output. 
-var usertemperature = parseInt(prompt("Enter temperature in celsius"));
-var temperature = "temp";
-var C = usertemperature;
-var fv = 9/5 ;
-var sv = 32 ;
-var F = fv * C + sv ;
-alert(F );
+//write a program that inputs marks of three subjects.if the average of marks is more than 80,
+//it displays message "you are above standard, Admission Granted!". 
+var English = 30;
+var urdu = 60;
+var islamiat = 90;
+var average = English + urdu + islamiat;
+var  marks=80 ;
+if (average>marks){
+    console.log("you are above standard, Admission Granted!");
+}
