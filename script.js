@@ -1,10 +1,8 @@
-//write a program that inputs marks of three subjects.if the average of marks is more than 80,
-//it displays message "you are above standard, Admission Granted!". 
-var English = 30;
-var urdu = 60;
-var islamiat = 90;
-var average = English + urdu + islamiat;
-var  marks=80 ;
-if (average>marks){
-    console.log("you are above standard, Admission Granted!");
+// write a javascript program that inputs a number from the user and check
+// whether it is an even number or odd number and alert the result.
+var userEnterNumber = parseInt(prompt("Enter any Number"));
+if (userEnterNumber % 2==0 ) {
+     alert("Number is even");
+} else {
+    alert("Number is odd");
 }
