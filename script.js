@@ -1,9 +1,7 @@
-// write a javascript program that gets temperature from user in celsius and convert it into Fahrenheit 
-// using the formula F = 9/5 * C + 32, alert the output. 
-var usertemperature = parseInt(prompt("Enter temperature in celsius"));
-var temperature = "temp";
-var C = usertemperature;
-var fv = 9/5 ;
-var sv = 32 ;
-var F = fv * C + sv ;
-alert(F );
+// write a javascript program that gets person height from user in inches and
+// convert it into centimeters using the formula heighInCentimeters = 2.54 * height, console the output. 
+var personheight = parseInt(prompt("Enter height in inches"));
+var height = personheight;
+var v1 = 2.54;
+var output = v1*height;
+console.log("height In Centimeter is",output);
